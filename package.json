@@ -1,0 +1,38 @@
+{
+  "name": "nodeauthjwt",
+  "version": "1.0.0",
+  "description": "Node Authentication with Token",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosielFaleiros/nodeauthjwtoken.git"
+  },
+  "keywords": [
+    "node",
+    "auth",
+    "authentication",
+    "jwt",
+    "token"
+  ],
+  "author": "JosielFaleiros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JosielFaleiros/nodeauthjwtoken/issues"
+  },
+  "homepage": "https://github.com/JosielFaleiros/nodeauthjwtoken#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.3",
+    "mongoose": "^4.11.10"
+  },
+  "devDependencies": {
+    "morgan": "^1.8.2",
+    "nodemon": "^1.12.0"
+  }
+}
